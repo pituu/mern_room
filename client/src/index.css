@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  background-color: black !important;
+}
+.navbar-brand{
+  color: wheat !important;
+}
+.nav-link{
+  color: wheat !important;
+  
+}
+.navbar-nav{
+  margin-left: auto !important;
+}
+.smallimg
+{
+  height: 200px;
+  width:100% !important;
+  border-radius: 5px !important;
+}
+.buttn{
+  float:right;
+  background-color: black;
+  color: wheat;
+  box-shadow: none !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+.buttn:hover{
+  float:right;
+  background-color: wheat;
+  color: black;
+  box-shadow: none !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.bs{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.bigimg{
+  height: 400px;
+  border-radius: 5px !important;
+
+}
+.loader{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+.form-control{
+  box-shadow: none !important;
+  margin-top: 10px;
+  
+}
+.dropdown{
+  margin-right: 50px !important;
+}
+.dropdown-toggle{
+  border: 0px solid black;
+}
+.ant-picker,.search  ,select{
+  box-shadow: none !important;
+  border: 3px solid black !important;
+  width: 100% ;
+  height: 80% ;
+}
+.ant-picker-input input{
+  border: none !important;
+}
+.ant-tabs-nav-operations, .ant-tabs-nav-operations-hidden button{
+  margin-left: 3px !important;
+}
+.text-right{
+text-align: right;}
+
+.landing{
+  
+  height:calc(90vh) !important;
+  background-color:rgb(250, 214, 117) !important;
+  
+}
+.btn{
+  background-color:black !important;
+  color:wheat !important;
+  margin-top: 10px !important;
+}
